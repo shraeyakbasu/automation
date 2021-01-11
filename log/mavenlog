@@ -1,0 +1,204 @@
+[1610137185.379][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 22867
+[1610137185.379][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610137186.054][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1610137186.061][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610137186.063][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610137186.066][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1610137186.066][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\SHRAEY~1\AppData\Local\Temp\scoped_dir9996_1798629922" data:,
+[1610137190.540][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610137192.586][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\SHRAEY~1\\AppData\\Local\\Temp\\scoped_dir9996_1798629922"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54995"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4c3b19052fbb8694a2a4e8e5190ca7a1"
+}
+[1610137197.509][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND MaximizeWindow {
+
+}
+[1610137197.509][INFO]: Waiting for pending navigations...
+[1610137197.511][INFO]: Done waiting for pending navigations. Status: ok
+[1610137197.512][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610137199.691][INFO]: Waiting for pending navigations...
+[1610137199.691][INFO]: Done waiting for pending navigations. Status: ok
+[1610137199.691][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1610137199.701][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND SetTimeouts {
+   "implicit": 20000
+}
+[1610137199.701][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE SetTimeouts
+[1610137199.710][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND SetTimeouts {
+   "pageLoad": 40000
+}
+[1610137199.710][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE SetTimeouts
+[1610137199.717][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND Navigate {
+   "url": "https://www.facebook.com/"
+}
+[1610137199.717][INFO]: Waiting for pending navigations...
+[1610137199.741][INFO]: Done waiting for pending navigations. Status: ok
+[1610137201.463][INFO]: Waiting for pending navigations...
+[1610137208.153][INFO]: Done waiting for pending navigations. Status: ok
+[1610137208.153][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE Navigate
+[1610137208.171][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#email"
+}
+[1610137208.171][INFO]: Waiting for pending navigations...
+[1610137208.171][INFO]: Done waiting for pending navigations. Status: ok
+[1610137208.183][INFO]: Waiting for pending navigations...
+[1610137208.183][INFO]: Done waiting for pending navigations. Status: ok
+[1610137208.184][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "be07769a-3a98-4c6f-b44e-74ec4bc89ea3"
+} ]
+[1610137208.263][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND TypeElement {
+   "id": "be07769a-3a98-4c6f-b44e-74ec4bc89ea3",
+   "text": "shraeyak1993@gmail.com",
+   "value": [ "s", "h", "r", "a", "e", "y", "a", "k", "1", "9", "9", "3", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m" ]
+}
+[1610137208.263][INFO]: Waiting for pending navigations...
+[1610137208.316][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.242][INFO]: Waiting for pending navigations...
+[1610137209.316][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.316][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE TypeElement
+[1610137209.324][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#pass"
+}
+[1610137209.324][INFO]: Waiting for pending navigations...
+[1610137209.331][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.341][INFO]: Waiting for pending navigations...
+[1610137209.342][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.342][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0899d756-fb4f-430e-9a99-fad103c6baee"
+}
+[1610137209.348][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND TypeElement {
+   "id": "0899d756-fb4f-430e-9a99-fad103c6baee",
+   "text": "abcdef",
+   "value": [ "a", "b", "c", "d", "e", "f" ]
+}
+[1610137209.348][INFO]: Waiting for pending navigations...
+[1610137209.349][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.442][INFO]: Waiting for pending navigations...
+[1610137209.445][INFO]: Done waiting for pending navigations. Status: ok
+[1610137209.446][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE TypeElement
+[1610137209.452][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#login"
+}
+[1610137209.452][INFO]: Waiting for pending navigations...
+[1610137209.453][INFO]: Done waiting for pending navigations. Status: ok
+[1610137227.972][INFO]: Waiting for pending navigations...
+[1610137227.972][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1610137228.099][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE FindElement
+[1610137228.152][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='login']"
+}
+[1610137228.152][INFO]: [4c3b19052fbb8694a2a4e8e5190ca7a1] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.88)
