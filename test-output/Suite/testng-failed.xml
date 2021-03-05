@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.scripts.actitime.Actitimedeletecustomer">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletecustomer"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletecustomer -->
+      <class name="com.scripts.actitime.Actitimedeleteleavetype">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="deleteleavetype"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeleteleavetype -->
+      <class name="com.scripts.actitime.Actitimeloginlogout">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="loginlogout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimeloginlogout -->
+      <class name="com.scripts.actitime.Actitimecreatecustomer">
+        <methods>
+          <include name="createcustomer"/>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreatecustomer -->
+      <class name="com.scripts.actitime.Actitimecreateleavetype">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="createleavetype"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreateleavetype -->
+      <class name="com.scripts.actitime.Actitimedeletework">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletework"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletework -->
+      <class name="com.scripts.actitime.Actitimecreatework">
+        <methods>
+          <include name="creatework"/>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreatework -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" name="TestEdge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.scripts.actitime.Actitimedeletecustomer">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletecustomer"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletecustomer -->
+      <class name="com.scripts.actitime.Actitimedeleteleavetype">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="deleteleavetype"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeleteleavetype -->
+      <class name="com.scripts.actitime.Actitimecreatecustomer">
+        <methods>
+          <include name="createcustomer"/>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreatecustomer -->
+      <class name="com.scripts.actitime.Actitimedeletework">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletework"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletework -->
+    </classes>
+  </test> <!-- TestEdge(failed) -->
+  <test thread-count="5" name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.scripts.actitime.Actitimedeletecustomer">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletecustomer"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletecustomer -->
+      <class name="com.scripts.actitime.Actitimedeleteleavetype">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="deleteleavetype"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeleteleavetype -->
+      <class name="com.scripts.actitime.Actitimeloginlogout">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="loginlogout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimeloginlogout -->
+      <class name="com.scripts.actitime.Actitimecreatecustomer">
+        <methods>
+          <include name="createcustomer"/>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreatecustomer -->
+      <class name="com.scripts.irctc.Testirctcsignup">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="openbrowser"/>
+          <include name="irctclogin"/>
+        </methods>
+      </class> <!-- com.scripts.irctc.Testirctcsignup -->
+      <class name="com.scripts.actitime.Actitimecreateleavetype">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="createleavetype"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreateleavetype -->
+      <class name="com.scripts.actitime.Actitimedeletework">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="deletework"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimedeletework -->
+      <class name="com.scripts.actitime.Actitimecreatework">
+        <methods>
+          <include name="creatework"/>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Actitimecreatework -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

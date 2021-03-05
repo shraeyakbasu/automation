@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Basepage 
 {
-public WebDriver driver;
+
 	
 	public void selectbyvalue(WebElement element,String value)
 	{
@@ -27,7 +27,7 @@ public WebDriver driver;
 		sc.selectByVisibleText(text);
 	}
 	
-	public void alert()
+	public void alert(WebDriver driver)
 	{
 		
 		Alert alt=driver.switchTo().alert();

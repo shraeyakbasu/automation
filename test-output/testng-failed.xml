@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mavenextra.Facebookloginusingarray">
+      <class name="mavengurubank.gurubankdeleteaccount">
         <methods>
+          <include name="logout"/>
           <include name="login"/>
-          <include name="openbrowser"/>
-          <include name="closebrowser"/>
         </methods>
-      </class> <!-- mavenextra.Facebookloginusingarray -->
+      </class> <!-- mavengurubank.gurubankdeleteaccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

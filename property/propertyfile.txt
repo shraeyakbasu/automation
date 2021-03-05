@@ -1,0 +1,7 @@
+url=https://demo.actitime.com/
+useridxpath=(//input[@class='textField'])[1]
+passwordxpath=(//input[@type='password'])[1]
+userid=admin
+password=manager
+
+login=(//div[contains(text(),'Login ')])[1]
